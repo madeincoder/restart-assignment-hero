@@ -1,6 +1,8 @@
 import { Link, NavLink } from "react-router";
 import logo from "../../assets/logo.png";
-// import { Github } from "lucide-react";
+import { BsGithub } from "react-icons/bs";
+import { IoAppsOutline, IoHomeOutline } from "react-icons/io5";
+import { MdOutlineInstallDesktop } from "react-icons/md";
 
 const Navbar = () => {
   const navlist = (
@@ -12,6 +14,7 @@ const Navbar = () => {
             `active:text-[#9F62F2] active:bg-white font-semibold ${isActive ? " font-semibold  text-[#9F62F2]" : ""}`
           }
         >
+          <IoHomeOutline />
           Home
         </NavLink>
       </li>
@@ -23,6 +26,7 @@ const Navbar = () => {
             `active:text-[#9F62F2] active:bg-white font-semibold ${isActive ? "font-semibold  text-[#9F62F2]" : ""}`
           }
         >
+          <IoAppsOutline />
           Apps
         </NavLink>
       </li>
@@ -34,6 +38,7 @@ const Navbar = () => {
             `active:text-[#9F62F2] active:bg-white font-semibold ${isActive ? "font-semibold  text-[#9F62F2]" : ""}`
           }
         >
+          <MdOutlineInstallDesktop />
           My Installation
         </NavLink>
       </li>
@@ -84,10 +89,11 @@ const Navbar = () => {
         </div>
         <div className="navbar-end ">
           <Link
-            to={"https://github.com/rabbani37"}
+            to={"https://github.com/madeincoder/restart-assignment-hero"}
             target="true"
             className="btn bg-linear-to-br from-[#632EE3] to-[#9F62F2] text-white"
           >
+            <BsGithub />
             Contribute
           </Link>
         </div>

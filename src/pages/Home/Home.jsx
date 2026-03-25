@@ -38,7 +38,7 @@ const Home = () => {
               </span>
             )}
           </div>
-          <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5 py-5 px-10">
+          <div className="max-w-360 mx-auto grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-6 py-5 px-10">
             {appData
               .sort((p, c) => c.downloads - p.downloads)
               .slice(0, 8)
