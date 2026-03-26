@@ -1,12 +1,15 @@
-# React + Vite
+# The App Name: Hero-io
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Description:**
+Hero.io is a React-based online app market project developed for learning and practice purposes. It showcases app data from a fake dataset, presents featured and all available apps, and offers a live search option for quick discovery. Each app also includes a review-style detail view, making the browsing experience more informative and engaging.
 
-Currently, two official plugins are available:
+**Using tecnology:**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Vite
+2. react.js
+3. react router
+4. reachart
+5. react-icon
+6. luchid-icon
+7. daisy Ui
+8. tailwind

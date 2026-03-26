@@ -4,8 +4,7 @@ import { IoStar } from "react-icons/io5";
 import { getLSapp, handleRemoveFormLS } from "../../LocalStor/localStore";
 import { useContext, useState } from "react";
 import { ToastContainer } from "react-toastify";
-// import ErrorApp from '../../assets/App-Error.png'
-import { Link, useNavigate } from "react-router";
+import { Link } from "react-router";
 import AppContext from "../../contextApp/AppContextSepareted";
 import { Oval } from "react-loader-spinner";
 
@@ -16,8 +15,6 @@ const Installation = () => {
   const apps = appData.filter((app) => storeLS.includes(app.id));
   const [appsR, setAppsR] = useState(apps);
   const [sortApp, setSortApp] = useState(null);
-
-  const navigate = useNavigate();
 
   const handleUnistall = (id) => {
     const remainingAp = appsR.filter((ap) => ap.id !== id);
