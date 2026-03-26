@@ -1,5 +1,4 @@
 import { Suspense, useContext, useState } from "react";
-import AppDetails from "./AppDetails";
 import { FaDownload } from "react-icons/fa6";
 import { IoStar } from "react-icons/io5";
 import { Search } from "lucide-react";

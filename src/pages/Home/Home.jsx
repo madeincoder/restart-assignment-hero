@@ -16,11 +16,12 @@ const Home = () => {
         <Banner></Banner>
         <State></State>
         <div>
-          <div className="text-center py-10">
-            <h2 className="text-5xl  font-bold mb-2 mt-10">Trending Apps</h2>
+          <div className="max-w-3xl mx-auto text-center py-10 px-6">
+            <h2 className="text-5xl  font-bold mb-6 mt-10">Trending Apps</h2>
             <p className="text-gray-500">
-              Discover the most popular apps trending now, curated to boost your
-              productivity and fun.
+              Stay ahead of the curve with the most popular apps right now.
+              We’ve done the curating so you can focus on what matters: getting
+              things done and having a blast.
             </p>
           </div>
           <div className="flex justify-center">
@@ -51,7 +52,7 @@ const Home = () => {
               <Link
                 to={"/apps"}
                 target="true"
-                className="btn bg-linear-to-br from-[#632EE3] to-[#9F62F2] text-white"
+                className="btn bg-linear-to-br from-[#632EE3] to-[#9F62F2] text-white px-10 py-4 mt-10 mb-8"
               >
                 {" "}
                 Show All

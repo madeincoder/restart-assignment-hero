@@ -15,6 +15,7 @@ import { ToastContainer } from "react-toastify";
 import { useContext, useEffect, useState } from "react";
 import AppContext from "../../contextApp/AppContextSepareted";
 import { Oval } from "react-loader-spinner";
+import { MdReviews } from "react-icons/md";
 
 const AppDetails = () => {
   const [installed, setInstalled] = useState(false);
@@ -124,7 +125,7 @@ const AppDetails = () => {
               </div>
 
               <div className="flex flex-col items-center">
-                <span className="text-orange-500 text-xl">
+                <span className="text-yellow-500 text-xl">
                   <IoStar />
                 </span>
                 <p className="text-xs text-gray-500">Average Ratings</p>
@@ -132,7 +133,9 @@ const AppDetails = () => {
               </div>
 
               <div className="flex flex-col items-center">
-                <span className="text-purple-600 text-xl">💬</span>
+                <span className="text-purple-600 text-xl">
+                  <MdReviews />
+                </span>
                 <p className="text-xs text-gray-500">Total Reviews</p>
                 <p className="font-bold text-2xl">
                   {" "}
@@ -185,7 +188,7 @@ const AppDetails = () => {
                 reversed
               />
               <Tooltip />
-              <Bar dataKey="count" barSize={20} fill="#FF8EA1" />
+              <Bar dataKey="count" barSize={20} fill="#ff8a00" />
             </ComposedChart>
           </ResponsiveContainer>
         </div>
