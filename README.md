@@ -1,4 +1,4 @@
-# The App Name: Hero-io
+# The App Name: Hero.io
 
 **Description:**
 Hero.io is a React-based online app market project developed for learning and practice purposes. It showcases app data from a fake dataset, presents featured and all available apps, and offers a live search option for quick discovery. Each app also includes a review-style detail view, making the browsing experience more informative and engaging.
